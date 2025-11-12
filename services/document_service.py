@@ -1,6 +1,6 @@
 import cv2
 import pytesseract
-from ultralytics import YOLO
+# from ultralytics import YOLO  # Commented out for testing real-time capture
 
 class DocumentService:
     def detect_and_crop_id(self, frame):
